@@ -1,0 +1,15 @@
+.Dialog {
+  backdrop-filter: blur(2px);
+}
+.InputLabel {
+  color: #3d3939;
+  font-style: Roboto;
+}
+.InputBox {
+  width: calc(100% - 20px);
+  background: transparent;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+  padding: 5px 8px;
+  margin: 5px 0px;
+}
