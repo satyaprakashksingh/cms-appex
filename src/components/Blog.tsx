@@ -31,7 +31,7 @@ function Blog({ blog, reload }: BlogInfo) {
       id: blog.id,
     };
     const res = await axios.put(`${apiBase}/review`, data);
-    console.log(res);
+   
     reload();
   };
 

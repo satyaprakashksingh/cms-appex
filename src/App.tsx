@@ -50,13 +50,13 @@ function App() {
   const getData = async () => {
     const res = await axios.get(`${apiBase}/home`);
     setBlogs(res.data as BlogData[]);
-    console.log(res);
+   
   };
 
   const getPendingData = async () => {
     const res = await axios.get(`${apiBase}/post/pending`);
     setBlogs(res.data as BlogData[]);
-    console.log(res);
+   
   };
 
   const showLoginDialog = () => {
@@ -109,7 +109,7 @@ function App() {
                 color="inherit"
               >
                 <AddCircleIcon />
-                Add Blog
+                add post
               </IconButton>
               <IconButton
                 size="small"

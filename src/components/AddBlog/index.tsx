@@ -38,7 +38,7 @@ export default function AddBlog(props: LoginProps) {
         status: "pending",
       };
       const res = await axios.post(`${apiBase}/write`, data);
-      console.log(res);
+    
       onClose();
     }
   }
@@ -68,7 +68,7 @@ export default function AddBlog(props: LoginProps) {
       }}
     >
       <DialogTitle>
-        Add Blog
+        add post
         <IconButton
           aria-label="close"
           onClick={onClose}
